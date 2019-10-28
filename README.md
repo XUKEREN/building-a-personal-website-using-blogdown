@@ -1,10 +1,10 @@
 # Building a Personal Website Using Blogdown   
+
+<img src="https://secure.meetupstatic.com/photos/event/c/8/5/8/highres_470511288.jpeg" alt="logo" width="300"/> <img src="https://bookdown.org/yihui/blogdown/images/logo.png" alt="logo" width="200"/>
+
 The work in this repository was prepared for [RLadies Pasadena](https://www.meetup.com/rladies-pasadena/).  This repository contains materials helping build a personal website using blogdown.  
 
-<a href="https://bookdown.org/yihui/blogdown"><img src="https://bookdown.org/yihui/blogdown/images/logo.png" alt="blogdown logo" align="right" /></a>   
-
-
-## Slides can be found [here](link)
+## Slides can be found [here](https://xukeren.rbind.io/slides/20191106/slides#12)
 ### Overview:  
 
 1. Motivations   
@@ -17,12 +17,12 @@ The work in this repository was prepared for [RLadies Pasadena](https://www.meet
 
 ## Handout  
 
-1. I assume that you have already installed **R** (https://www.r-project.org), the **RStudio** IDE (https://www.rstudio.com).    
+### 1. I assume that you have already installed **R** (https://www.r-project.org), the **RStudio** IDE (https://www.rstudio.com).    
 
-2. Set up **git** and connect **RStudio** to **Git** and **Github**. If you haven't already done these, I highly recommend this book: [Happy Git and Github for the useR by Jenny Bryan](https://happygitwithr.com/). 
+### 2. Set up **git** and connect **RStudio** to **Git** and **Github**. If you haven't already done these, I highly recommend this book: [Happy Git and Github for the useR by Jenny Bryan](https://happygitwithr.com/). 
 ![](Untitled 8.png)   
 
-3. Install **blogdown** package in **R**.  
+### 3. Install **blogdown** package in **R**.  
 
 ```r
 ## Install from CRAN
@@ -31,7 +31,7 @@ install.packages("blogdown")
 if (!requireNamespace("devtools")) install.packages("devtools")
 devtools::install_github("rstudio/blogdown")
 ```
-4. Install **hugo** in **R**.  *For macOS users, `install_hugo()` uses the package manager Homebrew (https://brew.sh) if it has already been installed, otherwise it just downloads the Hugo binary directly.*
+### 4. Install **hugo** in **R**.  *For macOS users, `install_hugo()` uses the package manager Homebrew (https://brew.sh) if it has already been installed, otherwise it just downloads the Hugo binary directly.*
 
 ```r
 blogdown::install_hugo()
@@ -45,7 +45,7 @@ You can check the installed Hugo version via: `blogdown::hugo_version()`
 You might want to upgrade hugo occationally: `blogdown::update_hugo()`  
 
 
-5. Open a new repository in Github, and clone this repository to your local drive, so that you can make modifications in R.  
+### 5. Open a new repository in Github, and clone this repository to your local drive, so that you can make modifications in R.  
 
 Take my repo: XUKEREN/KERENXU as an example: 
 
@@ -67,7 +67,7 @@ Select a theme: `blogdown::new_site(theme = "yihui/hugo-xmin")`
 Website https://themes.gohugo.io/ offers plenty of choices.
 
 
-6. Pick a hugo theme  
+### 6. Pick a hugo theme  
 
 Here is the website hosting a complete list of hugo themes: https://themes.gohugo.io/. This website offers plenty of choices. 
 
@@ -90,8 +90,9 @@ Then you will find out that there are lots of files in your local repo folder. M
 - themes/  
 - layouts/  
 
-7. Finally, commit and push your changes to Github.  
+### 7. Commit and push your changes to Github  
 
+### 8. Deployment  
 
 
 
