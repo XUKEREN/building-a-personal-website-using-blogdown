@@ -4,7 +4,7 @@
 
 The work in this repository was prepared for [RLadies Pasadena](https://www.meetup.com/rladies-pasadena/).  This repository contains materials helping build a personal website using blogdown.  
 
-## Slides can be found [here](https://xukeren.rbind.io/slides/20191106/slides#12)
+## Slides can be found [here](https://xukeren.rbind.io/slides/20191106/slides#1)
 ### Overview:  
 
 1. Motivations   
@@ -20,7 +20,8 @@ The work in this repository was prepared for [RLadies Pasadena](https://www.meet
 ### 1. I assume that you have already installed **R** (https://www.r-project.org), the **RStudio** IDE (https://www.rstudio.com).    
 
 ### 2. Set up **git** and connect **RStudio** to **Git** and **Github**. If you haven't already done these, I highly recommend this book: [Happy Git and Github for the useR by Jenny Bryan](https://happygitwithr.com/). 
-![](Untitled 8.png)   
+  
+<img src="Untitled 8.png" alt="drawing" width="300"/> 
 
 ### 3. Install **blogdown** package in **R**.  
 
@@ -51,11 +52,11 @@ Take my repo: XUKEREN/KERENXU as an example:
 
 Click the green button: **Clone or download**, and then copy the link to your clipboard.
 
-<img src="https://user-images.githubusercontent.com/37352799/37561612-4d96c51e-2a29-11e8-9133-a5299fc5671d.png" style="width: 500px;"/>
+<img src="https://user-images.githubusercontent.com/37352799/37561612-4d96c51e-2a29-11e8-9133-a5299fc5671d.png" width="300"/>
 
 Create a new project in RStudio by selecting file &rarr; new project &rarr; version control &rarr; git. Then you will see a window like this:
 
-<img src="https://user-images.githubusercontent.com/37352799/37561618-5886fa16-2a29-11e8-9a4d-718459ecc31b.png" style="width: 500px;"/>
+<img src="https://user-images.githubusercontent.com/37352799/37561618-5886fa16-2a29-11e8-9a4d-718459ecc31b.png" width="300"/>
 
 Fill in the Repository URL with the URL that you just copied from Github.
 
