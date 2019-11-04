@@ -93,7 +93,28 @@ Then you will find out that there are lots of files in your local repo folder. M
 
 ### 7. Commit and push your changes to Github  
 
-### 8. Deployment  
+### 8. Deployment using netlify
+
+Go to the website https://www.netlify.com/
+
+<img src="netlify-1.png" width=300x>
+
+Sign up with your GitHub account
+
+<img src="netlify-2.png" width=300x>
+
+Click "create a new site" and select `GitHub`
+
+<img src="netlify-3.png" width=300x>
+
+Your website is now deployed. 
+
+<img src="netlify-4.png" width=300x>
+
+You may change your domain name.
+
+<img src="netlify-5.png" width=300x>
+
 
 
 
