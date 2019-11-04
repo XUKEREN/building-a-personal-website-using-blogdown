@@ -217,7 +217,7 @@ You may change your domain name.
 <img src="imgs/netlify-5.PNG" width=300x>  
 
  
-You do not have to keep the netlify.com domain. Rbind can provide you with a free domain name end in rbind.io. See this (Link)[https://support.rbind.io/about/] to find out how to apply.  
+You do not have to keep the netlify.com domain. Rbind can provide you with a free domain name end in rbind.io. See this [Link](https://support.rbind.io/about/) to find out how to apply.  
 
 <img src="https://support.rbind.io/images/avatar.png" alt="drawing" width="100"/>    
 
