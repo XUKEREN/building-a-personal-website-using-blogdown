@@ -64,7 +64,7 @@ Fill in the Repository URL with the URL that you just copied from Github.
 Please create a directory name. Now you have cloned the project to your local drive.
 
 
-### 6. Pick a hugo theme  
+### 6. Pick a hugo theme.  
 
 Here is the website hosting a complete list of hugo themes: https://themes.gohugo.io/. This website offers plenty of choices. Unless you are an experienced web designer, it's better to start from an existing theme.    
 
@@ -160,14 +160,14 @@ Click this [Link](https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 #### Other features  
 
-Visit `issues` and `pull requests` of the theme's repository to figure out how to embed add more features to your website!    
+Visit `issues` and `pull requests` of the theme's repository to figure out how to embed more features to your website!    
 
 
 After you make all changes, it is very **important** that you serve the site. 
 
 <img src="imgs/serve-1.PNG" width=300x>  
 
-### 8. Commit and push your changes to Github   
+### 8. Commit and push your changes to Github.   
 
 <img src="imgs/stage.PNG" alt="drawing" width="300"/>   
 
@@ -190,7 +190,7 @@ Now everything in your local computer is on your GitHub repo now.
 You can make the repo open or private which won't affect the next deployment. 
 
 
-### 9. Deployment using Netlify   
+### 9. Deployment using Netlify.   
 
 Go to the website https://www.netlify.com/
 
