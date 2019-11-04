@@ -72,7 +72,7 @@ Pick a theme based on stars and forks of its github repository, since more popul
 
 Take the hugo-academic theme as an example:  
 
-<img src="imgs/Capture.png" alt="drawing" width="600"/> 
+<img src="imgs/Capture.PNG" alt="drawing" width="600"/> 
 
 
 Pick a theme base on the date of the last commit on github so that we can know if anyone is actively updating or maintaining it.  
@@ -95,31 +95,31 @@ You can use `blogdown:::serve_site()` to preview your changes.
 #### config.toml  
 We want to first take a look at the configuration file, a file written in [TOML (TTom's Obvious, Minimal Language) syntaxes](https://github.com/toml-lang/toml). We can change the `baseurl`, `title`, the `navigation menu`, and the links to your `social networks`.     
 
-<img src="imgs/config.png" alt="drawing" width="600"/>  
+<img src="imgs/config.PNG" alt="drawing" width="600"/>  
 
 `[permalinks]` You can find permalinks in a single bracket. This is where you can set the rules to generate permanent links of your pages.  Hugo uses full filenames under content to generate links.  
 
 You can find a folder called post and a folder called note under the content folder.  Once you generate a new post, your post link would be `homepage/post/year/month/day/slug/` and `content/post/year-month-day-slug.md` will be rendered to `public/post/year/month/day/slug/index.html`.  
 
-<img src="imgs/content.png" alt="drawing" width="400"/>
+<img src="imgs/content.PNG" alt="drawing" width="400"/>
 
 You can also find an `_index.Markdown` file and an `about.md` file here.  The `_index.Markdown` file documents what would show on your homepage. We can open `_index.Markdown` to make some changes.   
 
-<img src="imgs/index.png" alt="drawing" width="400"/>  
+<img src="imgs/index.PNG" alt="drawing" width="400"/>  
 
 The `about.md` is on the menu of your main page.   
 
-<img src="imgs/menu.png" alt="drawing" width="300"/>    
+<img src="imgs/menu.PNG" alt="drawing" width="300"/>    
 
 It was set by values in the double brackets in the `config.toml` file. The actual content of these pages are kept at other location. For example, the `about.md` page was kept in the content folder. We can open `about.md` to make some changes.    
-<img src="imgs/about.png" alt="drawing" width="400"/>   
+<img src="imgs/about.PNG" alt="drawing" width="400"/>   
 
 We can also add more pages in the homepage menue. For example, add a CV option here in the `config.toml`.    
 
-<img src="imgs/cv.png" alt="drawing" width="300"/>   
+<img src="imgs/cv.PNG" alt="drawing" width="300"/>   
 
 In addition, do not forget to create a `cv.md` file under the content folder.  
-<img src="imgs/cvmd.png" alt="drawing" width="300"/>   
+<img src="imgs/cvmd.PNG" alt="drawing" width="300"/>   
 
 `enableEmoji`  You can set this option  `= true`  in the `config.toml` so that you can write emojis on your website, like `:dancer:`  Find Emoji cheat sheet [here](https://www.webfx.com/tools/emoji-cheat-sheet/).    
 
@@ -166,9 +166,9 @@ Visit `issues` and `pull requests` of the theme's repository to figure out how t
 
 ### 8. Commit and push your changes to Github   
 
-<img src="imgs/stage.png" alt="drawing" width="300"/>   
+<img src="imgs/stage.PNG" alt="drawing" width="300"/>   
 
-<img src="imgs/commit.png" alt="drawing" width="300"/>   
+<img src="imgs/commit.PNG" alt="drawing" width="300"/>   
 
 
 
@@ -178,7 +178,7 @@ Deploy your website to Netlify.
 
 <img src="https://www.netlify.com/img/press/logos/logomark.png" alt="drawing" width="100"/>   
 
-<img src="imgs/new_variable.png" alt="drawing" width="300"/> 
+<img src="imgs/new_variable.PNG" alt="drawing" width="300"/> 
 
 In Advanced Settings, create New Variable `HUGO_VERSION` = `the hugo version you installed`   
 
