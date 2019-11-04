@@ -1,6 +1,6 @@
 # Building a Personal Website Using Blogdown   
 
-<img src="https://secure.meetupstatic.com/photos/event/c/8/5/8/highres_470511288.jpeg" alt="logo" width="300"/> <img src="https://bookdown.org/yihui/blogdown/images/logo.png" alt="logo" width="200"/>
+<img src="rladies.jpeg" height="200" align="bottom"/> <img src="https://db.yihui.name/images/hex-blogdown.png" height="200" align="top"/>
 
 The work in this repository was prepared for [RLadies Pasadena](https://www.meetup.com/rladies-pasadena/).  This repository contains materials helping build a personal website using blogdown.  
 
@@ -91,7 +91,28 @@ Then you will find out that there are lots of files in your local repo folder. M
 - themes/  
 - layouts/  
 
+After you make all changes, it is very **important** that you serve the site. 
+
+<img src="serve-1.png" width=300x>
+
+
 ### 7. Commit and push your changes to Github  
+
+Go to the terminal in your RStudio
+
+<img src="commit-1.png" width=300x>
+
+Type `git add .`
+
+Then type `git commit -m "first push"`
+
+Then type `git push`
+
+Now everything in your local computer is on your GitHub repo now. 
+
+<img src="commit-2.png" width=300x>
+
+You can make the repo open or private which won't affect the next deployment. 
 
 ### 8. Deployment using netlify
 
@@ -114,6 +135,13 @@ Your website is now deployed.
 You may change your domain name.
 
 <img src="netlify-5.png" width=300x>
+
+
+## More resources 
+
+RStudio summer internship project: building a website using `blogdown`
+
+https://summer-of-blogdown.netlify.com/
 
 
 
