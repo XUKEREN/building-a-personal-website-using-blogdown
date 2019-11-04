@@ -1,6 +1,6 @@
 # Building a Personal Website Using Blogdown   
 
-<img src="https://secure.meetupstatic.com/photos/event/c/8/5/8/highres_470511288.jpeg" alt="logo" width="300"/> <img src="https://bookdown.org/yihui/blogdown/images/logo.png" alt="logo" width="200"/>
+<img src="imgs/rladies.jpeg" height="200" align="bottom"/> <img src="https://db.yihui.name/images/hex-blogdown.png" height="200" align="top"/>
 
 The work in this repository was prepared for [RLadies Pasadena](https://www.meetup.com/rladies-pasadena/).  This repository contains materials helping build a personal website using blogdown.  
 
@@ -160,9 +160,12 @@ Click this [Link](https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 #### Other features  
 
-Visit `issues` and `pull requests` of the theme's repository to figure out how to embed add more features to your website!   
+Visit `issues` and `pull requests` of the theme's repository to figure out how to embed add more features to your website!    
 
 
+After you make all changes, it is very **important** that you serve the site. 
+
+<img src="imgs/serve-1.PNG" width=300x>  
 
 ### 8. Commit and push your changes to Github   
 
@@ -170,24 +173,63 @@ Visit `issues` and `pull requests` of the theme's repository to figure out how t
 
 <img src="imgs/commit.PNG" alt="drawing" width="300"/>   
 
+Go to the terminal in your RStudio
+
+<img src="imgs/commit-1.PNG" width=300x>
+
+Type `git add .`
+
+Then type `git commit -m "first push"`
+
+Then type `git push`
+
+Now everything in your local computer is on your GitHub repo now. 
+
+<img src="imgs/commit-2.PNG" width=300x>
+
+You can make the repo open or private which won't affect the next deployment. 
 
 
-### 9. Deployment  
-
-Deploy your website to Netlify.  
+### 9. Deployment using Netlify   
 
 <img src="https://www.netlify.com/img/press/logos/logomark.png" alt="drawing" width="100"/>   
 
-<img src="imgs/new_variable.PNG" alt="drawing" width="300"/> 
+Go to the website https://www.netlify.com/
+
+<img src="imgs/netlify-1.PNG" width=300x>
+
+Sign up with your GitHub account
+
+<img src="imgs/netlify-2.PNG" width=300x>
+
+Click "create a new site" and select `GitHub`
+
+<img src="imgs/netlify-3.PNG" width=300x>  
+
+<img src="imgs/new_variable.PNG" alt="drawing" width="300"/>   
 
 In Advanced Settings, create New Variable `HUGO_VERSION` = `the hugo version you installed`   
 
-Wait for a minute ... 
+Your website is now deployed. 
+
+<img src="imgs/netlify-4.PNG" width=300x>
+
+You may change your domain name.
+
+<img src="imgs/netlify-5.PNG" width=300x>  
 
  
-
-You do not have to keep the netlify.com domain. Rbind can provide you with a free domain name end in rbind.io. See this (Link)[https://support.rbind.io/about/] to find out how to apply.   
+You do not have to keep the netlify.com domain. Rbind can provide you with a free domain name end in rbind.io. See this (Link)[https://support.rbind.io/about/] to find out how to apply.  
 
 <img src="https://support.rbind.io/images/avatar.png" alt="drawing" width="100"/>    
+
+## More resources 
+
+RStudio summer internship project: building a website using `blogdown`
+
+https://summer-of-blogdown.netlify.com/
+
+
+
 
 
