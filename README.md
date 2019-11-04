@@ -1,6 +1,6 @@
 # Building a Personal Website Using Blogdown   
 
-<img src="imgs/rladies.jpeg" height="200" align="bottom"/> <img src="https://db.yihui.name/images/hex-blogdown.png" height="200" align="top"/>
+<img src="https://raw.githubusercontent.com/XUKEREN/Building-a-Personal-Website-Using-Blogdown/master/imgs/Rladies.jpeg" height="200" align="bottom"/> <img src="https://db.yihui.name/images/hex-blogdown.png" height="200" align="top"/>
 
 The work in this repository was prepared for [RLadies Pasadena](https://www.meetup.com/rladies-pasadena/).  This repository contains materials helping build a personal website using blogdown.  
 
@@ -191,8 +191,6 @@ You can make the repo open or private which won't affect the next deployment.
 
 
 ### 9. Deployment using Netlify   
-
-<img src="https://www.netlify.com/img/press/logos/logomark.png" alt="drawing" width="100"/>   
 
 Go to the website https://www.netlify.com/
 
