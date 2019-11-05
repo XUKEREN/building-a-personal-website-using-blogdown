@@ -75,7 +75,7 @@ Take the hugo-academic theme as an example:
 <img src="imgs/Capture.PNG" alt="drawing" width="600"/> 
 
 
-Pick a theme base on the date of the last commit on github so that we can know if anyone is actively updating or maintaining it.  
+Pick a theme based on the date of the last commit on github so that we can know if anyone is actively updating or maintaining it.  
 
 Once you have selected the theme, create a new site by using:  `blogdown::new_site(theme = "yihui/hugo-xmin")` - an "e**X**tremely **Min**imal theme"
 
@@ -90,10 +90,12 @@ Then you will find out that there are lots of files in your local repo folder (y
 
 ### 7. Make your own changes to personalize your website.  
 
-You can use `blogdown:::serve_site()` to preview your changes.  
+You can use `blogdown:::serve_site()` to preview your changes.  The other way is to use blogdown addin.    
+
+<img src="imgs/addin.PNG" alt="drawing" width="300"/>     
 
 #### config.toml  
-We want to first take a look at the configuration file, a file written in [TOML (TTom's Obvious, Minimal Language) syntaxes](https://github.com/toml-lang/toml). We can change the `baseurl`, `title`, the `navigation menu`, and the links to your `social networks`.     
+We want to first take a look at the configuration file, a file written in [TOML (Tom's Obvious, Minimal Language) syntaxes](https://github.com/toml-lang/toml). We can change the `baseurl`, `title`, the `navigation menu`, and the links to your `social networks`.     
 
 <img src="imgs/config.PNG" alt="drawing" width="600"/>  
 
@@ -169,11 +171,13 @@ After you make all changes, it is very **important** that you serve the site.
 
 ### 8. Commit and push your changes to Github.   
 
+#### The first way is to use panel options:  
+
 <img src="imgs/stage.PNG" alt="drawing" width="300"/>   
 
 <img src="imgs/commit.PNG" alt="drawing" width="300"/>   
 
-Go to the terminal in your RStudio
+#### The second way is to go to the terminal in your RStudio   
 
 <img src="imgs/commit-1.PNG" width=300x>
 
