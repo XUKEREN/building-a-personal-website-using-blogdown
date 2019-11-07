@@ -111,7 +111,7 @@ You can also find an `_index.Markdown` file and an `about.md` file here.  The `_
 
 The `about.md` is on the menu of your main page.   
 
-<img src="imgs/menu.PNG" alt="drawing" width="300"/>    
+<img src="imgs/menu.PNG" alt="drawing" width="400"/>    
 
 It was set by values in the double brackets in the `config.toml` file. The actual content of these pages are kept at other location. For example, the `about.md` page was kept in the content folder. We can open `about.md` to make some changes.    
 <img src="imgs/about.PNG" alt="drawing" width="400"/>   
@@ -148,7 +148,7 @@ for R Markdown file.
 
 #### Enable Google Analytics  
 
-If you want to use google analytics to keep track your website visitors, add `googleAnalytics = "tracking ID"` in the `config.toml` file and add `{{ template "_internal/google_analytics.html" . }}` in `layouts/partials/foot_custom.html`.          
+If you want to use google analytics to keep tracking your website visitors, add `googleAnalytics = "tracking ID"` in the `config.toml` file and add `{{ template "_internal/google_analytics.html" . }}` in `layouts/partials/foot_custom.html`.          
 
 The tracking ID is a string like UA-000000-2. It must be included in your tracking code to tell Analytics which account and property to send data to.   
 
